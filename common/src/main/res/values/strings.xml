@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Common</string>
+    <string name="sorry_app_will_exit">运行出现异常，程序即将退出!</string>
+</resources>
