@@ -2,6 +2,8 @@ package com.leshare.base;
 
 import android.app.Application;
 
+import com.leshare.DBHelper;
+
 /**
  * 作者：gxj on 2017/9/5 08:18
  * 邮箱：jun18735177413@sina.com
@@ -23,6 +25,12 @@ public class SuperApplication extends Application {
     }
 
     private void init() {
+        DBHelper.newInstance().initDB(this);
+    }
 
+    @Override
+    public void onTerminate() {
+        super.onTerminate();
+        DBHelper.newInstance().dispose();
     }
 }

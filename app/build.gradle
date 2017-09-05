@@ -29,7 +29,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':common')
     compile project(':http')
-    compile project(':model')
     compile project(':broadcast')
     compile project(':views')
 }

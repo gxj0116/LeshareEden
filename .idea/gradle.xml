@@ -12,7 +12,7 @@
             <option value="$PROJECT_DIR$/broadcast" />
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/http" />
-            <option value="$PROJECT_DIR$/mode" />
+            <option value="$PROJECT_DIR$/model" />
             <option value="$PROJECT_DIR$/views" />
           </set>
         </option>

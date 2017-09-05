@@ -1,9 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leshare.model">
 
-    package="com.leshare.mode">
-
-    <application android:allowBackup="true" android:label="@string/app_name"
-        android:supportsRtl="true">
+    <application android:label="@string/app_name">
+        <!-- 初始化ActiveAndroid的数据库和版本 -->
+        <meta-data
+            android:name="DB_NAME"
+            android:value="leshare.db" />
+        <meta-data
+            android:name="DB_VERSION"
+            android:value="1" />
 
     </application>
 
