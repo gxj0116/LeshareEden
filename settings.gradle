@@ -1,1 +1,1 @@
-include ':app', ':common', ':mode', ':http', ':broadcast', ':views'
+include ':app', ':common', ':model', ':http', ':broadcast', ':views'
